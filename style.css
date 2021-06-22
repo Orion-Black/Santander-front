@@ -1,6 +1,5 @@
 body {
-    background-color: #f49e47;
-    background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
+    background-color: #81420f;
   }
   
   h1 {
@@ -9,7 +8,7 @@ body {
   }
   
   p {
-    color: #8b8b8bcc;
+    color: rgb(255, 255, 255);
     font-family: verdana;
     font-size: 20px;
   }
@@ -75,5 +74,19 @@ body {
       padding-bottom: 12px;
       border: 0;
       border-radius: 5px;
-    
   }
+  .formulario > *{
+    border: 0px;
+
+  }
+  .formulario input{
+    background-color: greenyellow;
+    padding: 5px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
